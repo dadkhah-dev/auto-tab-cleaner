@@ -50,8 +50,10 @@ Go to the **Settings** tab in the extension popup:
 ```plaintext
 .
 ├── background.js         # Service worker logic for closing tabs
-├── popup.html            # Popup UI (dashboard + settings)
-├── popup.js              # Front-end logic
+├── options.html          # Setting UI (settings)
+├── options.js            # Setting logic
+├── dashboard.html        # Front-end dashboard
+├── dashboard.js          # Front-end logic
 ├── styles.css            # Classic-modern styling
 ├── icons/                # Extension icons (16px, 48px, 128px)
 ├── manifest.json         # Manifest V3 config
@@ -86,4 +88,4 @@ We welcome contributions!
 
 ## 📃 License
 
-MIT License © 2025 – Saeid
+MIT License © 2025 – Saeid Dadkhah
